@@ -1,0 +1,2 @@
+require("range-highlight").setup({})
+
