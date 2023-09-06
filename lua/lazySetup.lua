@@ -8,15 +8,6 @@ end
 
 return {
   { "kdheepak/lazygit.nvim" },
-  {
-    "nvim-neo-tree/neo-tree.nvim",
-    config = get_setup("neotree"),
-    branch = "v2.x",
-    dependencies = {
-      "nvim-lua/plenary.nvim", "nvim-tree/nvim-web-devicons",
-      "MunifTanjim/nui.nvim", "s1n7ax/nvim-window-picker"
-    }
-  },
   { "nvim-lua/plenary.nvim" },
   { "EdenEast/nightfox.nvim", config = get_setup("nightfox"), enabled = false },
   { "folke/tokyonight.nvim", config = get_setup("tokyonight"), enabled = false },
