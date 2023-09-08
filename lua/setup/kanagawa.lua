@@ -36,5 +36,6 @@ require("kanagawa").setup({
   },
 })
 
+-- require("kanagawa").load("lotus")
+-- require("kanagawa").load("dragon")
 require("kanagawa").load("wave")
-

@@ -22,7 +22,6 @@ return {
     event = "VeryLazy",
   },
   { "codethread/qmk.nvim", config = get_setup("qmk") },
-  { "ellisonleao/gruvbox.nvim", priority = 1000, config =get_setup("gruvbox") },
   {
     "gen740/SmoothCursor.nvim",
     config = get_setup("smoothcursor"),
