@@ -124,5 +124,8 @@ return {
     config = get_setup("range-highlight"),
   },
   { "goolord/alpha-nvim", config = get_setup("alpha"), enabled = false },
+--  { "ckipp01/nvim-jenkinsfile-linter",
+--    config = get_setup("jenkinsfile-linter"),
+--  }
 }
 
